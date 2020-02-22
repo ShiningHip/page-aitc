@@ -1,0 +1,162 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.info_list > *,
+.track_list > * {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  transition-delay: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.info_eyecatch {
+  left: 0;
+  right: 0;
+  background: url('/logo.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto;
+  height: 200px;
+  position: relative;
+  display: block;
+}
+
+.info {
+  height: 80vh;
+  min-height: 600px;
+  padding-top: 40px;
+  z-index: 20;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.track {
+  @extend .info;
+  height: 100vh;
+  min-height: 1100px;
+}
+
+.credit {
+  @extend .info;
+  height: 130vh;
+  min-height: 1000px;
+}
+
+.info_container {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  text-align: center;
+}
+
+.track_container {
+  @extend .info_container;
+  text-align: right;
+}
+
+.credit_container {
+  @extend .info_container;
+}
+
+.subtitle {
+  width: auto;
+  height: 40px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  position: absolute;
+  color: #fdfdfd;
+
+  &::after {
+    content: '';
+    margin-top: -5px;
+    width: 100vw;
+    height: 3px;
+    display: block;
+    background: #f0f0f0;
+  }
+}
+
+ul.info_list,
+ul.track_list,
+ul.credit_list {
+  top: 70px;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+
+@media screen and (min-width: 1280px) {
+  .subtitle {
+    color: #fdfdfd;
+  }
+
+  ul.info_list {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    width: 50%;
+    color: #fdfdfd;
+
+    & * {
+      color: #fdfdfd;
+      margin: 0 auto;
+    }
+
+    & :not(:last-child) {
+      text-align: center;
+    }
+  }
+
+  .info,
+  .track,
+  .credit {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .credit {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .credit_container,
+  .info_container,
+  .track_container {
+    min-width: 1000px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .subtitle {
+    color: #fdfdfd;
+
+    &::after {
+      background: #f0f0f0;
+    }
+  }
+
+  .credit_container,
+  .info_container,
+  .track_container {
+    width: 100%;
+  }
+
+  .info_eyecatch {
+    width: 100%;
+    background-position: center;
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "page-aitc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next src/app",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "jest --runInBand",
+    "test:upsnap": "run-s \"test -- -u\"",
+    "watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "_moduleAliases": {
+    "src": "./src",
+    "app": "./src/app"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^.+\\.(css|less|scss)$": "identity-obj-proxy"
+    }
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.2",
+    "@material-ui/icons": "^4.9.1",
+    "classnames": "^2.2.6",
+    "module-alias": "^2.2.2",
+    "next": "^9.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-jss": "^10.0.4"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/jest": "^25.1.2",
+    "@types/next": "^9.0.0",
+    "@types/node": "^12.12.5",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.5",
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/parser": "^2.20.0",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.1.0",
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.12.0",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.8.2"
+  }
+}

@@ -1,0 +1,3 @@
+# page-aitc
+
+AITC のホームページです

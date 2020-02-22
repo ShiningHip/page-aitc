@@ -1,0 +1,34 @@
+#background {
+  width: 100vw;
+  height: 100vh !important;
+  position: fixed !important;
+  display: block;
+  overflow: hidden;
+  background: url('/jacket.png') no-repeat fixed;
+  background-size: auto 100%;
+  background-position: center;
+  z-index: -65535;
+}
+
+section#front {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  overflow: hidden;
+  min-height: 1000px;
+}
+
+.front_display {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  z-index: -65535;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}

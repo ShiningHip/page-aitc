@@ -1,0 +1,30 @@
+.soundcloud {
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 300px;
+  position: relative;
+  display: block;
+  padding-top: 30px;
+  z-index: 20;
+}
+
+.soundcloud_container {
+  width: 30%;
+  height: 300px;
+  position: relative;
+  text-align: right;
+}
+
+@media screen and (min-width: 1280px) {
+  .soundcloud_container {
+    min-width: 1000px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .soundcloud_container {
+    width: 100%;
+  }
+}

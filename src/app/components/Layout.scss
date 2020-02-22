@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body {
+  text-align: center;
+}
+
+body,
+section#contents {
+  min-height: 1000px;
+}
+
+html {
+  background: #000000;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: none;
+}
+
+body {
+  font-size: 13px;
+  font-family: 'Open Sans Condensed', 'Crimson Text', Georgia, 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo, sans-serif;
+  line-height: 140%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body::before {
+  content: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+a {
+  font-size: 100%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fdfdfd;
+  outline: 0;
+}
+
+a:hover {
+  color: #fdfdfd;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.f160 {
+  font-size: 160px;
+}
+
+.f150 {
+  font-size: 150px;
+}
+
+.f140 {
+  font-size: 140px;
+}
+
+.f130 {
+  font-size: 130px;
+}
+
+.f120 {
+  font-size: 120px;
+}
+
+.f110 {
+  font-size: 110px;
+}
+
+.f100 {
+  font-size: 100px;
+}
+
+.f90 {
+  font-size: 90px;
+}
+
+.f80 {
+  font-size: 80px;
+}
+
+.f70 {
+  font-size: 70px;
+}
+
+.f60 {
+  font-size: 60px;
+}
+
+.f50 {
+  font-size: 50px;
+}
+
+.f40 {
+  font-size: 40px;
+}
+
+.f30 {
+  font-size: 30px;
+}
+
+.f25 {
+  font-size: 25px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f15 {
+  font-size: 15px;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f10 {
+  font-size: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+#background {
+  width: 100vw;
+  height: 100vh !important;
+  position: fixed !important;
+  display: block;
+  overflow: hidden;
+  background: url('/jacket.png') no-repeat fixed;
+  background-size: auto 100%;
+  background-position: center;
+  z-index: -65535;
+}
+
+section#contents {
+  width: 100%;
+  height: 100%;
+  color: #fdfdfd;
+  display: block;
+  overflow: hidden;
+}
+
+section#contents > div {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
+}
