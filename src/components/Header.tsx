@@ -7,7 +7,7 @@ export default () => (
     <title>COMPILE | AITC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
     <meta name="keywords" content="AITC,COMPILE,M3" />
-    <meta name="description" content="2020-03-10 第一展示場 I-21a 2020-春M3" />
+    <meta name="description" content="2020-03-01 第一展示場 I-21a 2020-春M3" />
     <link rel="canonical" href="https://url" />
     <meta property="og:locale" content="ja_JP" />
     <meta property="og:type" content="website" />
