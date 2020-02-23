@@ -55,7 +55,6 @@
 
 .track_container {
   @extend .info_container;
-  text-align: right;
 }
 
 .credit_container {
@@ -90,7 +89,7 @@ ul.credit_list {
   top: 70px;
   list-style: none;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
   display: block;

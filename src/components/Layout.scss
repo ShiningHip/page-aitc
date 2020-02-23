@@ -137,18 +137,6 @@ a:hover {
   text-align: center;
 }
 
-#background {
-  width: 100vw;
-  height: 100vh !important;
-  position: fixed !important;
-  display: block;
-  overflow: hidden;
-  background: url('/static/AITC-0001/jacketFront.png') no-repeat fixed;
-  background-size: auto 100%;
-  background-position: center;
-  z-index: -65535;
-}
-
 section#contents {
   width: 100%;
   height: 100%;
