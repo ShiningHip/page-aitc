@@ -54,6 +54,24 @@ const Index: React.FC = () => (
         <img src="/static/AITC-0001/Track08.png" alt="" />
       </ListItem>
     </ImageContainer>
+
+    <ImageContainer containerType="credit">
+      <ListItem containerType="credit">
+        <img src="/static/AITC-0001/Credit.png" alt="" />
+      </ListItem>
+      <ListItem containerType="credit">
+        <img src="/static/AITC-0001/CreditProduce.png" alt="" />
+      </ListItem>
+      <ListItem containerType="credit">
+        <img src="/static/AITC-0001/CreditArtwork.png" alt="" />
+      </ListItem>
+      <ListItem containerType="credit">
+        <img src="/static/AITC-0001/CreditDesign.png" alt="" />
+      </ListItem>
+      <ListItem containerType="credit">
+        <img src="/static/AITC-0001/CreditWeb.png" alt="" />
+      </ListItem>
+    </ImageContainer>
   </Layout>
 )
 export default Index
