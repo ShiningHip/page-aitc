@@ -5,6 +5,7 @@ import TrackListItem from 'components/Molecules/TrackListItem'
 import InfoListItemContent from 'components/Atoms/InfoListItemContent'
 import CreditListItem from 'components/Molecules/CreditListItem'
 import CreditListItemContent from 'components/Atoms/CreditListItemContent'
+import Soundcloud from 'components/Organisms/Soundcloud'
 
 const Contents: React.FC = () => (
   <section id="contents">
@@ -31,6 +32,8 @@ const Contents: React.FC = () => (
         <InfoListItemContent fontSize="f50" text="1,000 YEN" />
       </ListItem>
     </Container>
+
+    <Soundcloud />
 
     <Container containerType="track" subtitle="TRACK LIST">
       <TrackListItem no="1" title="StrawFlower" artist="eulious" />
