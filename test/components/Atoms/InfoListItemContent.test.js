@@ -1,15 +1,16 @@
-import ListItem from 'app/components/Molecules/ListItem'
+import InfoListItemContent from 'components/Atoms/InfoListItemContent'
 import { configure, shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 configure({ adapter: new Adapter() })
 
-describe('ListItem test', () => {
+describe('InfoListItemContent test', () => {
   const props = {
-    containerType: 'test'
+    fontSize: 'test',
+    text: 'test'
   }
 
   it('表示が正しいこと', () => {
-    const tree = shallow(<ListItem {...props} />).toJSON
+    const tree = shallow(<InfoListItemContent {...props} />).toJSON
     expect(tree).toMatchSnapshot()
   })
 })

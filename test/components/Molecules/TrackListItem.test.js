@@ -1,15 +1,17 @@
-import CreditListItem from 'app/components/Molecules/CreditListItem'
+import TrackListItem from 'components/Molecules/TrackListItem'
 import { configure, shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 configure({ adapter: new Adapter() })
 
-describe('CreditListItem test', () => {
+describe('TrackListItem test', () => {
   const props = {
-    role: 'test'
+    no: 'test',
+    title: 'test',
+    artist: 'test'
   }
 
   it('表示が正しいこと', () => {
-    const tree = shallow(<CreditListItem {...props} />).toJSON
+    const tree = shallow(<TrackListItem {...props} />).toJSON
     expect(tree).toMatchSnapshot()
   })
 })

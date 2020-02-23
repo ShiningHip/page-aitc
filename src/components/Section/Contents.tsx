@@ -1,10 +1,10 @@
 import React from 'react'
-import Container from 'app/components/Organisms/Container'
-import ListItem from 'app/components/Molecules/ListItem'
-import TrackListItem from 'app/components/Molecules/TrackListItem'
-import InfoListItemContent from 'app/components/Atoms/InfoListItemContent'
-import CreditListItem from 'app/components/Molecules/CreditListItem'
-import CreditListItemContent from 'app/components/Atoms/CreditListItemContent'
+import Container from 'components/Organisms/Container'
+import ListItem from 'components/Molecules/ListItem'
+import TrackListItem from 'components/Molecules/TrackListItem'
+import InfoListItemContent from 'components/Atoms/InfoListItemContent'
+import CreditListItem from 'components/Molecules/CreditListItem'
+import CreditListItemContent from 'components/Atoms/CreditListItemContent'
 
 const Contents: React.FC = () => (
   <section id="contents">

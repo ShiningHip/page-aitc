@@ -1,4 +1,4 @@
-import Soundcloud from 'app/components/Organisms/Soundcloud'
+import Soundcloud from 'components/Organisms/Soundcloud'
 import { configure, shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 configure({ adapter: new Adapter() })

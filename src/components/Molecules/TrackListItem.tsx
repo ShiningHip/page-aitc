@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './TrackListItem.scss'
-import ListItemContent from 'app/components/Atoms/ListItemContent'
+import ListItemContent from 'components/Atoms/ListItemContent'
 
 interface Props {
   no: string

@@ -1,16 +1,16 @@
-import InfoListItemContent from 'app/components/Atoms/InfoListItemContent'
+import CreditListItemContent from 'components/Atoms/CreditListItemContent'
 import { configure, shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 configure({ adapter: new Adapter() })
 
-describe('InfoListItemContent test', () => {
+describe('CreditListItemContent test', () => {
   const props = {
-    fontSize: 'test',
-    text: 'test'
+    name: 'test',
+    url: 'test'
   }
 
   it('表示が正しいこと', () => {
-    const tree = shallow(<InfoListItemContent {...props} />).toJSON
+    const tree = shallow(<CreditListItemContent {...props} />).toJSON
     expect(tree).toMatchSnapshot()
   })
 })

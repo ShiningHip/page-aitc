@@ -1,4 +1,4 @@
-import ListItemContent from 'app/components/Atoms/ListItemContent'
+import ListItemContent from 'components/Atoms/ListItemContent'
 import { configure, shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 configure({ adapter: new Adapter() })

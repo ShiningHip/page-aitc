@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next src/app",
+    "dev": "next",
     "build": "next build",
     "export": "next export",
     "start": "next start",
@@ -19,7 +19,7 @@
   "license": "ISC",
   "_moduleAliases": {
     "src": "./src",
-    "app": "./src/app"
+    "components": "./src/components"
   },
   "jest": {
     "moduleNameMapper": {
