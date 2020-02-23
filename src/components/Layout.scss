@@ -143,7 +143,7 @@ a:hover {
   position: fixed !important;
   display: block;
   overflow: hidden;
-  background: url('/static/AITC-0001/jacket.png') no-repeat fixed;
+  background: url('/static/AITC-0001/jacketFront.png') no-repeat fixed;
   background-size: auto 100%;
   background-position: center;
   z-index: -65535;
@@ -162,4 +162,10 @@ section#contents > div {
   transition: 0.3s;
   transition-delay: 0.1s;
   transition-timing-function: ease-in-out;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  zoom: auto;
 }
