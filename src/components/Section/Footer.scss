@@ -1,11 +1,11 @@
 footer {
   width: 100%;
-  height: 120px;
+  height: 30px;
   text-align: center;
   position: absolute;
   display: block;
   overflow: hidden;
-  background: #272828;
+  background: #000000;
 
   & span {
     width: 100%;
@@ -13,6 +13,11 @@ footer {
     bottom: 0;
     color: #effeff;
   }
+}
+
+.footer_contents {
+  width: inherit;
+  height: inherit;
 }
 
 .footer_logo {
@@ -25,4 +30,10 @@ footer {
   transition: opacity 0.1s;
   margin-top: 5px;
   border-radius: 50%;
+}
+
+footer img {
+  zoom: auto;
+  width: auto;
+  height: inherit;
 }

@@ -1,6 +1,12 @@
 .container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+
+  &::before {
+    content: '';
+    display: block;
+    padding-top: 120%;
+  }
 }
 
 .info_list > *,
@@ -24,31 +30,26 @@
 }
 
 .info {
-  height: 120vh;
-  min-height: 600px;
+  height: 100%;
   padding-top: 40px;
   z-index: 20;
   overflow: hidden;
   position: relative;
-  display: block;
+  display: flex;
   background: rgba(0, 0, 0, 0.7);
 }
 
 .track {
   @extend .info;
-  height: 100vh;
-  min-height: 1100px;
 }
 
 .credit {
   @extend .info;
-  height: 130vh;
-  min-height: 1000px;
 }
 
 .info_container {
   width: 100%;
-  height: 90%;
+  height: 100%;
   position: absolute;
   text-align: center;
 }
@@ -100,24 +101,6 @@ ul.credit_list {
     color: #fdfdfd;
   }
 
-  ul.info_list {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-    width: 90%;
-    color: #fdfdfd;
-
-    & * {
-      color: #fdfdfd;
-      margin: 0 auto;
-    }
-
-    & :not(:last-child) {
-      text-align: center;
-    }
-  }
-
   .info,
   .track,
   .credit {
@@ -128,7 +111,6 @@ ul.credit_list {
   .credit_container,
   .info_container,
   .track_container {
-    min-width: 1000px;
     right: 0;
     left: 0;
     margin: auto;

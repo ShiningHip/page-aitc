@@ -10,8 +10,8 @@ const ImageContainer: React.FC<Props> = (props: Props) => (
   <>
     <style jsx>{style}</style>
     <div className={`${props.containerType} container`}>
-      <div className={`${props.containerType}_container image`}>
-        <ul className={`${props.containerType}_list image`}>{props.children}</ul>
+      <div className={`${props.containerType}_container`}>
+        <ul className={`${props.containerType}_list`}>{props.children}</ul>
       </div>
     </div>
   </>

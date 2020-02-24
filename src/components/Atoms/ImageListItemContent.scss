@@ -1,9 +1,22 @@
 .info_list_item_jacket,
 .info_list_item_text {
   display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .info_list_item_jacket > img {
-  text-align: center;
   zoom: 70%;
+}
+
+.info_list_item_img,
+.track_list_item_img,
+.credit_list_item_img {
+  cursor: auto;
+
+  & a:hover {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.1s;
+    transition: opacity 0.1s;
+  }
 }

@@ -10,7 +10,7 @@ export interface Props {
 }
 
 const ImageListItemContent: React.FC<Props> = ({ containerType, contentName, children, linkDestination }) => {
-  const classNames = Classname(`${containerType}_list_item_${contentName}`, 'images')
+  const classNames = Classname(`${containerType}_list_item_${contentName}`)
 
   return (
     <>

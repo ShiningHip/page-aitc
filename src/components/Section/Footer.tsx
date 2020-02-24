@@ -5,9 +5,8 @@ const Footer: React.FC = () => (
   <>
     <style jsx>{style}</style>
     <footer>
-      <div className="footer_ground">
-        <div className="footer_logo"></div>
-        <span>Copyright 2020 AITC All Rights Reserved.</span>
+      <div className="footer_contents">
+        <img src="/static/AITC-0001/Copyright.png" alt="" />
       </div>
     </footer>
   </>

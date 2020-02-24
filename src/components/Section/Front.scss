@@ -5,7 +5,7 @@
   display: block;
   overflow: hidden;
   background: url('/static/AITC-0001/jacketBack.png') no-repeat fixed;
-  background-size: auto 100%;
+  background-size: cover;
   background-position: center;
   z-index: -65535;
 }
@@ -15,7 +15,6 @@ section#front {
   height: 100vh;
   display: block;
   overflow: hidden;
-  min-height: 1000px;
   z-index: -1024;
 }
 
@@ -23,8 +22,8 @@ section#front {
   position: absolute;
   display: block;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  height: inherit;
   margin: auto;
   top: 0;
   right: 0;
