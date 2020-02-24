@@ -9,7 +9,7 @@ const ImageContents: React.FC = () => (
     <ImageContainer containerType="info">
       <ImageListItem containerType="info">
         <ImageListItemContent containerType="info" contentName="message">
-          <img src="/static/AITC-0001/topMessage.png" alt="" />
+          <img src="/static/AITC-0001/TopMessage.png" alt="" />
         </ImageListItemContent>
       </ImageListItem>
       <ImageListItem containerType="info">
