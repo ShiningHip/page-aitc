@@ -14,7 +14,7 @@ export default () => (
     <meta property="og:title" content="COMPILE | AITC" />
     <meta property="og:image" content="Final.png" />
     <meta property="og:url" content="https://url" />
-    <meta property="og:description" content="2020-03-10 第一展示場 I-21a 2020-春M3" />
+    <meta property="og:description" content="2020-03-01 第一展示場 I-21a 2020-春M3" />
     <meta property="og:site_name" content="COMPILE | AITC" />
   </Head>
 )
