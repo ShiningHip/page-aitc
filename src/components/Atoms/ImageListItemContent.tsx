@@ -5,7 +5,7 @@ import style from './ImageListItemContent.scss'
 export interface Props {
   containerType: string
   contentName: string
-  children: React.ReactNode
+  children?: React.ReactNode
   linkDestination?: string
 }
 
@@ -15,7 +15,7 @@ const ImageListItemContent: React.FC<Props> = ({ containerType, contentName, chi
   return (
     <>
       <style jsx>{style}</style>
-      <span className={classNames}>
+      <div className={classNames}>
         {linkDestination ? (
           <a href={linkDestination} target="_blank">
             {children}
@@ -23,7 +23,7 @@ const ImageListItemContent: React.FC<Props> = ({ containerType, contentName, chi
         ) : (
           children
         )}
-      </span>
+      </div>
     </>
   )
 }
