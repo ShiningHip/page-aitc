@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next"
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
-  var queryString: string = req.query.query
+  var queryString: string = req.query.query.toString()
   var converted = new Array(queryString.length)
   queryString.split('').map(s=>{
   do {
