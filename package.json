@@ -12,7 +12,7 @@
     "fix": "eslint --fix .",
     "test": "jest --runInBand",
     "test:upsnap": "run-s \"test -- -u\"",
-    "watch": "jest --watchAll"
+    "test --watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
@@ -31,13 +31,17 @@
     "@material-ui/icons": "^4.9.1",
     "classnames": "^2.2.6",
     "module-alias": "^2.2.2",
-    "next": "^9.1.2",
+    "next": "^9.5.5",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-jss": "^10.0.4",
-    "styled-jsx": "^3.2.4"
+    "react-three-fiber": "^4.2.21",
+    "styled-jsx": "^3.2.4",
+    "three": "^0.120.1",
+    "use-cannon": "^0.5.3"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
     "@types/classnames": "^2.2.9",
     "@types/jest": "^25.1.2",
     "@types/next": "^9.0.0",
